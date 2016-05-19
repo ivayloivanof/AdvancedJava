@@ -1,5 +1,6 @@
 package stack.and.queue;
 
+import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -9,7 +10,7 @@ import static java.lang.Integer.parseInt;
 public class BasicQueueOperation {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        Queue<Integer> numbers = new LinkedList<>();
+        Queue<Integer> numbers = new ArrayDeque<>();
 
         String input = scan.nextLine();
         String amount = scan.nextLine();
